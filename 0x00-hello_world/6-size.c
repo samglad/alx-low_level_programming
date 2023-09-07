@@ -2,7 +2,7 @@
 
 /**
  * main - This is a C program that prints the size of various types on the
- computer it is compiled and run on
+ *computer it is compiled and run on
  * Return: This function returns 0
  */
 
@@ -13,7 +13,5 @@ int main(void)
 	printf("Size of long int: %zu bytes\n", sizeof(long int));
 	printf("Size of long long int: %zu bytes\n", sizeof(long long int));
 	printf("Size of float: %zu bytes\n", sizeof(float));
-	printf("Size of double: %zu bytes\n", sizeof(double));
-	printf("Size of long double: %zu bytes\n", sizeof(long double));
 	return (0);
 }
